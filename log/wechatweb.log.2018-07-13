@@ -1,0 +1,43 @@
+2018-07-13 06:46:47-[INFO] [org.hibernate.validator.internal.util.Version] [21] [background-preinit] HV000001: Hibernate Validator 6.0.10.Final
+2018-07-13 06:46:49-[INFO] [com.jbwl.ApplicationWechatWeb] [50] [main] Starting ApplicationWechatWeb on DESKTOP-GFKLBTA with PID 15792 (F:\myproject\master_wechat\wehat_web\target\classes started by JP in F:\myproject\master_wechat)
+2018-07-13 06:46:49-[INFO] [com.jbwl.ApplicationWechatWeb] [659] [main] No active profile set, falling back to default profiles: default
+2018-07-13 06:46:49-[INFO] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [590] [main] Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@609cd4d8: startup date [Fri Jul 13 06:46:49 CST 2018]; root of context hierarchy
+2018-07-13 06:46:57-[INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [91] [main] Tomcat initialized with port(s): 8081 (http)
+2018-07-13 06:46:58-[INFO] [org.springframework.web.context.ContextLoader] [285] [localhost-startStop-1] Root WebApplicationContext: initialization completed in 8759 ms
+2018-07-13 06:46:58-[INFO] [org.springframework.boot.web.servlet.FilterRegistrationBean] [245] [localhost-startStop-1] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-13 06:46:58-[INFO] [org.springframework.boot.web.servlet.FilterRegistrationBean] [245] [localhost-startStop-1] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-13 06:46:58-[INFO] [org.springframework.boot.web.servlet.FilterRegistrationBean] [245] [localhost-startStop-1] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-13 06:46:58-[INFO] [org.springframework.boot.web.servlet.FilterRegistrationBean] [245] [localhost-startStop-1] Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-13 06:46:58-[INFO] [org.springframework.boot.web.servlet.RegistrationBean] [111] [localhost-startStop-1] Filter characterEncodingFilter was not registered (possibly already registered?)
+2018-07-13 06:46:58-[INFO] [org.springframework.boot.web.servlet.FilterRegistrationBean] [258] [localhost-startStop-1] Mapping filter: 'ruleFilter' to urls: [/*]
+2018-07-13 06:46:58-[INFO] [org.springframework.boot.web.servlet.FilterRegistrationBean] [245] [localhost-startStop-1] Mapping filter: 'ruleDomainFilter' to: [/*]
+2018-07-13 06:46:58-[INFO] [org.springframework.boot.web.servlet.ServletRegistrationBean] [186] [localhost-startStop-1] Servlet dispatcherServlet mapped to [/]
+2018-07-13 06:46:59-[INFO] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [373] [main] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-13 06:46:59-[INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [574] [main] Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@609cd4d8: startup date [Fri Jul 13 06:46:49 CST 2018]; root of context hierarchy
+2018-07-13 06:47:00-[INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [547] [main] Mapped "{[/wechat/bus/line/{line}]}" onto public java.lang.Object com.jbwl.web.controller.FindBusController.line(java.lang.String)
+2018-07-13 06:47:00-[INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [547] [main] Mapped "{[/wechat/bus/lineInfo/{lineId}]}" onto public java.lang.Object com.jbwl.web.controller.FindBusController.lineInfo(java.lang.Long)
+2018-07-13 06:47:00-[INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [547] [main] Mapped "{[/wechat/bus/station/{station}]}" onto public java.lang.Object com.jbwl.web.controller.FindBusController.station(java.lang.String)
+2018-07-13 06:47:00-[INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [547] [main] Mapped "{[/wechat/bus/stationlist/{stationID}/{name}]}" onto public java.lang.Object com.jbwl.web.controller.FindBusController.stationInfo(java.lang.Long,java.lang.String)
+2018-07-13 06:47:00-[INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [547] [main] Mapped "{[/wechat/bus/lineStatus/{lineId}]}" onto public java.lang.Object com.jbwl.web.controller.FindBusController.lineStatus(java.lang.Long)
+2018-07-13 06:47:00-[INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [547] [main] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-13 06:47:00-[INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [547] [main] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-13 06:47:00-[INFO] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [373] [main] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-13 06:47:00-[INFO] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [373] [main] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-13 06:47:00-[INFO] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] [433] [main] Registering beans for JMX exposure on startup
+2018-07-13 06:47:01-[INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [206] [main] Tomcat started on port(s): 8081 (http) with context path ''
+2018-07-13 06:47:01-[INFO] [com.jbwl.ApplicationWechatWeb] [59] [main] Started ApplicationWechatWeb in 14.935 seconds (JVM running for 19.202)
+2018-07-13 06:47:39-[INFO] [org.springframework.web.servlet.DispatcherServlet] [494] [http-nio-8081-exec-1] FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-13 06:47:39-[INFO] [org.springframework.web.servlet.DispatcherServlet] [509] [http-nio-8081-exec-1] FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2018-07-13 06:47:42-[INFO] [com.jbwl.web.controller.FindBusController] [119] [http-nio-8081-exec-3] title : 苏州公交实时查询
+2018-07-13 06:54:57-[INFO] [com.jbwl.web.controller.FindBusController] [119] [http-nio-8081-exec-5] title : 苏州公交实时查询
+2018-07-13 06:55:52-[INFO] [com.jbwl.web.controller.FindBusController] [119] [http-nio-8081-exec-2] title : 苏州公交实时查询
+2018-07-13 06:58:10-[INFO] [com.jbwl.web.controller.FindBusController] [119] [http-nio-8081-exec-7] title : 苏州公交实时查询
+2018-07-13 06:58:45-[INFO] [com.jbwl.web.controller.FindBusController] [119] [http-nio-8081-exec-9] title : 苏州公交实时查询
+2018-07-13 07:00:58-[INFO] [com.jbwl.web.controller.FindBusController] [119] [http-nio-8081-exec-1] title : 苏州公交实时查询
+2018-07-13 07:14:22-[INFO] [com.jbwl.web.controller.FindBusController] [119] [http-nio-8081-exec-2] title : 苏州公交实时查询
+2018-07-13 07:15:01-[INFO] [com.jbwl.web.controller.FindBusController] [119] [http-nio-8081-exec-9] title : 苏州公交实时查询
+2018-07-13 07:15:23-[INFO] [com.jbwl.web.controller.FindBusController] [119] [http-nio-8081-exec-3] title : 苏州公交实时查询
+2018-07-13 07:15:32-[INFO] [com.jbwl.web.controller.FindBusController] [119] [http-nio-8081-exec-4] title : 苏州公交实时查询
+2018-07-13 07:15:56-[INFO] [com.jbwl.web.controller.FindBusController] [119] [http-nio-8081-exec-9] title : 苏州公交实时查询
+2018-07-13 07:16:05-[INFO] [com.jbwl.web.controller.FindBusController] [119] [http-nio-8081-exec-10] title : 苏州公交实时查询
+2018-07-13 07:16:16-[INFO] [com.jbwl.web.controller.FindBusController] [119] [http-nio-8081-ex
