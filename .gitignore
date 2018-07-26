@@ -24,3 +24,4 @@
 /nbdist/
 /.nb-gradle/
 wechat_api/target/
+wechat_api/wechat-api.iml
